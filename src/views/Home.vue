@@ -24,6 +24,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url("https://www.dafontfree.net/embed/Y2VudHVyeS1nb3RoaWMtYm9sZCZkYXRhLzQ3L2MvNTA3NjIvZ290aGljYi50dGY");
+
 .hero {
   background-image: url("../assets/hero-bg.jpg");
   background-attachment: fixed;
@@ -48,6 +50,7 @@ export default {
       padding-bottom: 4px;
     }
     h2 {
+      font-family: 'century-gothic-bold', sans-serif;
       font-size: 50px;
       @media (min-width: 550px) {
         font-size: 80px;
