@@ -187,9 +187,6 @@ header {
 
       li {
         margin-left: 0;
-        .link {
-          //color: #FEEFD7;
-        }
       }
     }
 
