@@ -2,7 +2,7 @@
   <header :class="{ 'scrolled-nav': scrolledNav }">
     <nav>
       <div class="branding">
-        <img src="@/assets/Logo.png" alt="" />
+        <img src="@/assets/favicon.png" alt="" />
       </div>
       <ul v-show="!mobile" class="navigation">
         <li>
@@ -92,7 +92,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 header {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #FEEFD7;
   z-index: 99;
   width: 100%;
   position: fixed;
@@ -161,6 +161,7 @@ header {
       top: 0;
       right: 24px;
       height: 100%;
+      color: #36454F;
 
       i {
         cursor: pointer;
@@ -187,7 +188,7 @@ header {
       li {
         margin-left: 0;
         .link {
-          color: #000;
+          //color: #FEEFD7;
         }
       }
     }
@@ -209,7 +210,7 @@ header {
 }
 
 .scrolled-nav {
-  background-color: #000;
+  background-color: #FEEFD7;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 
   nav {
@@ -218,7 +219,7 @@ header {
     .branding {
       img { 
         height: 40px;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        //box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
       }
     }
   }
